@@ -1,5 +1,3 @@
-GRAFO
-
 #pragma once
 #include "vertice.h"
 #include "arista.h"
