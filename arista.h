@@ -1,23 +1,27 @@
-//#pragma once
+#pragma once
 #include <iostream>
+#include <string>
+
+using std::string;
 
 class Vertice;
 
 class Arista
 {
-  int peso;
+  float distancia;
+  string tipoRuta;
+
   Arista* sig;
   Vertice* dest;
 
   friend class Grafo;
 
 public:
-  Arista(Vertice* _dest, int peso);
-};
-
-Arista::Arista(Vertice* _dest, int _peso)
+Arista(Vertice* _dest, float _dist, string _tipoRuta)
 {
   dest = _dest;
-  peso = _peso;
+  distancia = _dist;
+  tipoRuta = _tipoRuta;
   sig = NULL;
 }
+};
