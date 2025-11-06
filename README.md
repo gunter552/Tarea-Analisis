@@ -1,4 +1,4 @@
-# Tarea-Analisis: Sistema de Rutas Médicas
+# Tarea-Analisis: Sistema de Ruta Médica
 
 
 Jose Manuel Mariaca Patiño: Creación del repositorio, estructura inicial del proyecto, adaptación de la clase `Vertice` para los Centros Médicos y responsable del análisis de complejidad. 
